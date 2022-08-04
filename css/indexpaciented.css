@@ -1,0 +1,126 @@
+html, body {
+    font-family: 'Questrial', sans-serif;
+        height: 100%;
+      }
+div.titulo {
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /* height: 0%; */
+    margin-top: 0px;
+    color: #333;
+  }
+  div.titulo2 {
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /* height: 0%; */
+    margin-top: 79px;
+    color: #333;
+    margin-left: -15rem;
+}
+.titulo2 hr{
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #8159de;
+    width: 22rem;
+    margin-left: 26rem;
+}
+.snip1515 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #a344a3;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 14px;
+    box-shadow: none !important;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+  .snip1515 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .snip1515 .profile-image {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+    border: 2px solid #a344a3;
+  }
+  
+  .snip1515 .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .snip1515 figcaption {
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #555;
+    padding: 125px 25px 25px;
+    margin-top: -100px;
+    display: inline-block;
+  }
+  
+  .snip1515 h3,
+  .snip1515 h4,
+  .snip1515 p {
+    margin: 0 0 5px;
+  }
+  
+  .snip1515 h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+    font-family: 'Playfair Display', Arial, sans-serif;
+  }
+  
+  .snip1515 h4 {
+    color: #a344a3;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  .snip1515 p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+  
+  .snip1515 .icons {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .snip1515 i {
+    padding: 10px 2px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #a344a3;
+    opacity: 0.75;
+  }
+  
+  .snip1515 i:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  

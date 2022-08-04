@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    
+}
+body{
+    background-color: #ffffff;
+    
+}
+#container {
+    height: 34rem;
+    width: 68rem;
+    margin-top: 4rem;
+    margin-left: 21rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#radio-1{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+#radio-2{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+#radio-3{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+input:checked + .card{
+    -webkit-box-shadow: 8px 8px 0px 1px #8159de;
+-moz-box-shadow: 8px 8px 0px 1px #8159de;
+box-shadow: 8px 8px 0px 1px #8159de;
+}
+.card{ /*card*/
+
+        height: 31rem;
+        width: 21rem;
+        background-color: #eae8ef;
+        border-radius: 5px;
+
+}
+#card2{ /*card*/
+    height: 31rem;
+    width: 21rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+#card3{ /*card*/
+    height: 31rem;
+    width: 21rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.top-card {
+    font: normal 20px Arial;
+    height: 10%;
+    width: 100%;
+    background-color: #8159deba;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+button{
+    border-radius: 7px;
+}
+#btn-1{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 6rem;
+    margin-left: 12rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}
+#btn-2{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 6rem;
+    margin-left: 12rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}
+#btn-3{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 6rem;
+    margin-left: 12rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}
+#tela1{/*tela de aviso 1*/
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    height: 25rem;
+    width: 40rem;
+    background-color: #eae8ef;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 600px #333333a3;
+    -moz-box-shadow: 0px 0px 0px 600px #333333a3;
+    box-shadow: 0px 0px 0px 600px #333333a3;
+}
+#tela2{/*tela de aviso 2*/
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    height: 25rem;
+    width: 40rem;
+    background-color: #eae8ef;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 600px #333333a3;
+    -moz-box-shadow: 0px 0px 0px 600px #333333a3;
+    box-shadow: 0px 0px 0px 600px #333333a3;
+}
+#tela3{/*tela de aviso 3*/
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    height: 25rem;
+    width: 40rem;
+    background-color: #eae8ef;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 600px #333333a3;
+    -moz-box-shadow: 0px 0px 0px 600px #333333a3;
+    box-shadow: 0px 0px 0px 600px #333333a3;
+}
+.top-tela{  /*titulo da tela de aviso*/
+    height: 15%;
+    width: 100%;
+    background-color: #8159deba;
+    font: normal 25px Arial;
+    color: #eae8ef;
+    text-align: center;
+    line-height: 60px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.btn-container{/*Serve para posicionar melhor os botoes da tela de aviso*/
+    display: flex;
+    justify-content: space-between;
+    margin-top:17rem;
+    margin-left: 25rem;
+    height: 3rem;
+    width: 13.5rem;
+   
+}
+.textoconf {
+    margin-top: 0rem;
+    margin: -13rem -25rem 0 -23rem;
+    font-size: 22px;
+}
+.planoconf{
+ 
+    margin-top: 0rem;
+    margin: -8rem -1rem;
+    font-size: 24px;
+    color: #6a49b8;
+    
+}
+#btn-cancel-1{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(230, 45, 38, 0.73);
+    color: #ffffff;
+}
+#btn-confirm-1{
+    height: 3rem;
+    width: 6rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}
+
+#btn-cancel-2{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(230, 45, 38, 0.73);
+    color: #ffffff;
+}
+#btn-confirm-2{
+    height: 3rem;
+    width: 6rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}
+#btn-cancel-3{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(230, 45, 38, 0.73);
+    color: #ffffff;
+}
+#btn-confirm-3{
+    height: 3rem;
+    width: 6rem;
+    background-color: #8159deba;
+    color: #ffffff;
+}

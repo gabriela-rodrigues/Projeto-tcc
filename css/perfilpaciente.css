@@ -1,0 +1,207 @@
+html, body {
+  font-family: 'Questrial', sans-serif;
+      height: 100%;
+    }
+    h2{
+      color: black;
+      font-size:16px;
+    }
+    h3{
+      color:black;
+      font-size: 26px;
+    }
+   body {
+  
+    /*font-family: 'Raleway', 'Montserrat', sans-serif;*/
+    background-color: #ffffff;
+    margin: 0;
+    color: #fff;
+    height: 100%;
+  }
+    img {
+      max-width: 100%;
+    }
+    button {
+      background-color: #8159de8f;
+      color: #ffffff;
+      border: none;
+      padding: 10px 66px;
+      font-size: 17px;
+      cursor: pointer;
+
+      margin-left: 47rem;
+      margin-bottom: 1rem auto;
+  }
+      
+      button:hover {
+      opacity: 0.8;
+      }
+      
+    input{
+      width: 134px;
+      height: 16px;
+      justify-content: space-between;
+    }
+    .content {
+      float: left;
+      background: #E9EEF4;
+      width: 100%;
+      height: calc(95% - -31px);
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-top: -66px;
+  }
+    
+  div.container {
+    /*height: 100%; */
+    width: 100%;
+    /* float: right; */
+    background: -webkit-linear-gradient(top, #ffffff 20%, #ffffff3d 100%);
+}
+  div.titulo {
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /* height: 0%; */
+    margin-top: 0px;
+    color: #333;
+}
+    .card-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgba(0,0,0,0.6);
+    flex:3;
+    background-color:white;
+    border-radius:5px 5px 0 0;
+    padding:5%;
+  }
+
+    
+    h5{
+      font-size: 23PX;
+      padding: 1px;
+      color: black;
+      text-align: left;
+    }
+    label{
+      font-size: 22PX;
+      padding: 3px;
+      color: black;
+    }
+    input {
+      padding: 21px;
+      width: 70%;
+      font-size: 17px;
+      border: 1px solid #aaaaaa;
+    }
+  .card-footer{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    background-color:#8159de;
+    border-radius:0 0 5px 5px;
+    color: white;
+  }
+
+  
+  .clearfix {
+     clear:both; 
+  }
+  div.op3{
+    width: 0rem;
+    /* float: left; */
+    margin-left: 18rem;
+    background-color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    padding: 2rem 0rem 0rem 1rem;
+    min-width: 40vw;
+}
+div.op4{
+  width: 0rem;
+  /* float: left; */
+  margin-left: 55rem;
+  margin-top: -408px;
+  background-color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  padding: 2rem 0rem 0rem 1rem;
+  min-width: 40vw;
+}
+div.op5{
+  width: 0rem;
+  /* float: left; */
+  margin-left: 51rem;
+  margin-top: -534px;
+  background-color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  padding: 2rem 0rem 0rem 1rem;
+  min-width: 40vw;
+}
+div.op6{
+    width: 0rem;
+      /* float: left; */
+      margin-left: 55rem;
+      margin-top: -283px;
+      background-color: #ffffff;
+      font-size: 22px;
+      text-align: center;
+      padding: 2rem 0rem 0rem 1rem;
+      min-width: 40vw;
+}
+div.op7{
+  width: 0rem;
+    /* float: left; */
+    margin-left: 20rem;
+    margin-top: -283px;
+    background-color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    padding: 2rem 0rem 0rem 1rem;
+    min-width: 40vw;
+}
+.profile-sidebar {
+  background-color: #8159de00;
+  height: 6rem;
+  /* border-right: 1px solid black; */
+  margin-top: 0 !important;
+  display: block;
+  /* background: -webkit-linear-gradient(bottom, #8159de96 30%, #ffffff 50%);*/
+}
+  .form-control {
+    display: block;
+    width: 74%;
+    height: calc(0.5em + 0.75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #8159de61;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ 
+.form-control-1 {
+  display: block;
+    width: 78%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #8159de61;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+#container{ /*muda o posicionamento da dos cards por aqui*/
+    height: 34rem;
+    width: 68rem;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#radio-1{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+#radio-2{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+#radio-3{ /*to usando pra desaparecer com os checkbox*/
+    display: none;
+}
+input:checked + .card{
+    -webkit-box-shadow: 8px 8px 0px 1px rgba(139,11,224,1);
+-moz-box-shadow: 8px 8px 0px 1px rgba(139,11,224,1);
+box-shadow: 8px 8px 0px 1px rgba(139,11,224,1);
+}
+.card{ /*card*/
+    height: 31rem;
+    width: 21rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+#card2{ /*card*/
+    height: 31rem;
+    width: 21rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+#card3{ /*card*/
+    height: 31rem;
+    width: 21rem;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.top-card{ /*topo do card/titulo */
+    font: normal 20px Arial;
+    height: 12%;
+    width: 100%;
+    background-color: blueviolet;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    color: whitesmoke;
+} 
+
+button{
+    border-radius: 7px;
+}
+#btn-1{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 22rem;
+    margin-left:14rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#btn-2{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 22rem;
+    margin-left:14rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#btn-3{ /*botao pra chamar a tela de confirmação, se for mudar a posição dele
+    muda por aqui*/
+    height: 3rem;
+    width: 6rem;
+    margin-top: 22rem;
+    margin-left:14rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#tela1{/*tela de aviso 1*/
+    display: none;
+    position:absolute;
+    top: 15%;
+    left: 27%;
+    height: 25rem;
+    width: 40rem;
+    background-color:whitesmoke;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    -moz-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+}
+#tela2{/*tela de aviso 2*/
+    display: none;
+    position:absolute;
+    top: 15%;
+    left: 27%;
+    height: 25rem;
+    width: 40rem;
+    background-color:whitesmoke;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    -moz-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+}
+#tela3{/*tela de aviso 3*/
+    display: none;
+    position:absolute;
+    top: 15%;
+    left: 27%;
+    height: 25rem;
+    width: 40rem;
+    background-color:whitesmoke;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    -moz-box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+    box-shadow: 0px 0px 0px 400px rgba(0,0,0,0.84);
+}
+.top-tela{  /*titulo da tela de aviso*/
+    height: 15%;
+    width: 100%;
+    background-color: blueviolet;
+    font: normal 25px Arial;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 60px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.btn-container{/*Serve para posicionar melhor os botoes da tela de aviso*/
+    display: flex;
+    justify-content: space-between;
+    margin-top:17rem;
+    margin-left: 25rem;
+    height: 3rem;
+    width: 13.5rem;
+   
+}
+#btn-cancel-1{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(235, 42, 35);
+    color: whitesmoke;
+}
+#btn-confirm-1{
+    height: 3rem;
+    width: 6rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#btn-cancel-2{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(235, 42, 35);
+    color: whitesmoke;
+}
+#btn-confirm-2{
+    height: 3rem;
+    width: 6rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#btn-cancel-3{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(235, 42, 35);
+    color: whitesmoke;
+}
+#btn-confirm-3{
+    height: 3rem;
+    width: 6rem;
+    background-color: blueviolet;
+    color: whitesmoke;
+}

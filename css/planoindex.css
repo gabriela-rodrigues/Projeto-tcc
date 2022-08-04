@@ -1,0 +1,101 @@
+/*planos*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.planos {
+    /*width: 50%;*/
+    margin: 39px auto;
+    overflow: hidden;
+    font: 13px/20px;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 650px){
+.planos {
+    display: grid;
+}
+.plano{
+  width: 250px;
+}
+.section h2{
+  font-size: 45px;
+  text-align: center;
+  color: #7d7ad6;
+}
+}
+  .plano {
+    float: left;
+    width: 349px;
+    margin: 20px 2px;
+    padding: 30px 30px;
+    text-align: center;
+    color: #252525;
+    background-color: white;
+    /*border-radius: 0% 10% 0% 10%;*/
+  }
+  
+  .titulo-plano { /*Sem/Men/Anu*/
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: #543A91;
+  }
+  
+  .preço-plano { /*preço exibido na tela*/
+    margin-bottom: 20px;
+    line-height: 1;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a49b8;
+  }
+  .preço-total { /*preço exibido na tela*/
+    margin-bottom: 20px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6a49b8;
+  }
+  
+  .unidade { 
+
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(157, 92, 209);
+  }
+  
+  .caracteristica-plano { /*divisão entre itens*/
+    width: 120px;
+    margin: 20px auto 15px;
+    padding: 15px 0 0 15px;
+    border-top: 1px solid #e5ded6;
+    text-align: center;
+    display: inline;
+  }
+  
+  .caracteristicas-plano { /*itens*/
+   line-height: 25px;
+    font-size: 15px;
+    /*font-weight: 500;*/
+    color: #252525;
+    list-style-type: none;
+  
+    & + & { 
+      margin-top: 5px; 
+    }
+  }
+  
+  .botao-plano { /*adquirir*/
+    position: relative;
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(black, .1);
+    background: #848fe4;
+    border-bottom: 2px solid #ffffff;
+    border-color: rgba(black, .15);
+    border-radius: 3px;
+  }
